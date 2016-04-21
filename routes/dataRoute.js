@@ -27,10 +27,7 @@ router.post('/submit/comfort', function (req, res, next) {
 		// <metaData> -> [ {name: <column>}, {name: <column>}, ... ]
 		// <column> -> String
 
-		var traitFactors = req.body;
-		var bulls = result.rows;
-
-		var sortedBulls = sortTraits( result.rows, req.body );
+		var sortedBulls = sortTraits( result.naut, req.body );
 
 		res.json( sortedBulls );
 	});
