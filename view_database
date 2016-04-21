@@ -1,0 +1,49 @@
+GET INTO DATABASE
+-----------------
+
+1. opna cmd
+
+2. sqlplus system/22sqcnF8@localhost:1521/orcl
+
+
+eða
+2. "sqlplus"
+3. "connect / as sysdba"
+
+eða
+2. "connect"
+3. "system"
+4. "22sqcnF8"
+
+
+
+SHOW TABLES
+-----------
+(INFO: the table that is create by you, is high on the list)
+select tablespace_name, table_name from user_tables where tablespace_name ='SYSTEM';
+
+
+
+OUTPUT beautify
+---------------
+(INFO: buffer width size in terminal can be bother you)
+set wrap off
+set linesize 3000
+
+
+TABLE SCHEMA
+------------
+(INFO: the linesize can fuck up the look of the result)
+DESC <table_name>
+
+
+
+TRASH
+-----
+/*oracledb.createPool({
+    user: 'system',
+    password: '22sqcnF8',
+    connectString: 'localhost:1521/orcl'
+}, function(){
+    console.log("blasdfrsdaf");
+});*/

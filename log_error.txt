@@ -1,0 +1,48 @@
+D:\Geymsla\Forritun\Vefforritun\lokaverkefni\para-nautgripi\para-nautgripi\server>npm install oracledb
+npm WARN install Couldn't install optional dependency: Unsupported
+npm WARN install Couldn't install optional dependency: Unsupported
+
+> oracledb@1.6.0 install D:\Geymsla\Forritun\Vefforritun\lokaverkefni\para-nautgripi\para-nautgripi\server\node_m
+odules\oracledb
+> node-gyp rebuild
+
+
+D:\Geymsla\Forritun\Vefforritun\lokaverkefni\para-nautgripi\para-nautgripi\server\node_modules\oracledb>if not de
+fined npm_config_node_gyp (node "C:\Users\thorgeir\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin\\..\..\n
+ode_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node  rebuild )
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+  njsOracle.cpp
+  njsPool.cpp
+  njsConnection.cpp
+  njsResultSet.cpp
+  njsMessages.cpp
+  njsIntLob.cpp
+  dpiEnv.cpp
+  dpiEnvImpl.cpp
+  dpiException.cpp
+  dpiExceptionImpl.cpp
+  dpiConnImpl.cpp
+  dpiDateTimeArrayImpl.cpp
+..\src\njs\src\njsConnection.cpp(1301): warning C4267: '=': conversion from 'size_t' to 'sb4', possible loss of
+data [D:\Geymsla\Forritun\Vefforritun\lokaverkefni\para-nautgripi\para-nautgripi\server\node_modules\oracledb\bu
+ild\oracledb.vcxproj]
+  dpiPoolImpl.cpp
+  dpiStmtImpl.cpp
+  dpiUtils.cpp
+  dpiLob.cpp
+  dpiCommon.cpp
+  win_delay_load_hook.c
+C:\Users\thorgeir\AppData\Roaming\npm\node_modules\npm\node_modules\node-gyp\src\win_delay_load_hook.c(12): warn
+ing C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition [D:\Geymsla\Forritun\Vefforritun\lokaverkefni\para-nautgrip
+i\para-nautgripi\server\node_modules\oracledb\build\oracledb.vcxproj]
+  C:\Users\thorgeir\AppData\Roaming\npm\node_modules\npm\node_modules\node-gyp\src\win_delay_load_hook.c(12): no
+  te: command-line arguments:  see previous definition of 'WIN32_LEAN_AND_MEAN'
+     Creating library D:\Geymsla\Forritun\Vefforritun\lokaverkefni\para-nautgripi\para-nautgripi\server\node_mod
+  ules\oracledb\build\Release\oracledb.lib and object D:\Geymsla\Forritun\Vefforritun\lokaverkefni\para-nautgrip
+  i\para-nautgripi\server\node_modules\oracledb\build\Release\oracledb.exp
+  Generating code
+  Finished generating code
+  oracledb.vcxproj -> D:\Geymsla\Forritun\Vefforritun\lokaverkefni\para-nautgripi\para-nautgripi\server\node_mod
+  ules\oracledb\build\Release\\oracledb.node
+server@0.0.0 D:\Geymsla\Forritun\Vefforritun\lokaverkefni\para-nautgripi\para-nautgripi\server
+└── oracledb@1.6.0  extraneous

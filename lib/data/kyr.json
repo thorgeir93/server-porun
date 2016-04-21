@@ -1,0 +1,37 @@
+{
+	"kyr": [
+		{	
+		"numer": "" ,
+      "einstaklingsnumer": "201316374310741" ,
+      "gripanumer": "0741" ,
+      "nafn": "Bára",
+      "faedingardags": "05.02.2013" ,
+      "faedingardagur": "05" ,
+      "faedingarman": "02" ,
+      "faedingarar": "2013" ,
+      "kyn_numer": "2" ,
+      "fadir_numer": "10031" ,
+      "modir_numer": "0553" ,
+      "framleidslubu": "1637431 Ásólfsskáli" ,
+      "faedingarbu": "1637431 Ásólfsskáli" ,
+      "einkenni_numer": "10" ,
+      "litur_numer": "10" ,
+      "afdrif_numer": "10",
+      "stofn_numer": "10" ,
+      "stada_numer": "1" ,
+      "danardags": "null" ,
+      "byrjunardagur": "null" ,
+      "valnumer": "0741" ,
+      "breytt_dags": "null" ,
+      "breytt_af": "10" ,
+      "skraningardags": "null" ,
+      "skrasetjari_numer": "null" ,
+      "framleidsla_numer": "null" ,
+      "brjostamal": "null" ,
+      "hjord_numer": "10" ,
+      "burekstur_numer": "10" ,
+      "bidur_slatrunar": "0" ,
+      "gripur_fullt_nafn": "gripur_fullt_nafn as (\"GRIPANUMER\"||\"NAFN\")"
+		}
+	]
+}
