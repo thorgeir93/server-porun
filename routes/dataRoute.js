@@ -114,7 +114,8 @@ router.get('/table/default', function (req, res, next) {
 
 	db.getBulls(1, function( result ){
 		// rows = [ {column:value, ... }, ... ]
-		res.json( result.rows );
+		//res.json( result.rows );
+		res.json( result.naut );
 	});
 });
 
