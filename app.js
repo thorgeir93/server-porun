@@ -27,7 +27,6 @@ var checkUser = require('./middleware/checkUser');
 //database
 //
 //database plugin
-var oracledb = require('oracledb');
 var DBConnector = require('./lib/DBConnector');
 
 
